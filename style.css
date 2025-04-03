@@ -1,0 +1,34 @@
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.slide {
+    width: 80vw;
+    height: 40vh;
+}
+
+.slide img {
+    width: inherit;
+    height: inherit;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+#pag_slide{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 40px;
+    gap: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
